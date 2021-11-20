@@ -1,0 +1,27 @@
+.divv{
+	border: 8px solid royalblue;
+	border-radius: 8px;
+	margin: 50px;
+	padding: 5px;
+	width: 750px;
+	height: 400px;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	background-image: url("../fotossgs/feliz.png");
+  	background-size: cover;
+  	transition: 0.3s;
+
+}
+
+body{
+	background-color: #303841;
+}
+
+.divv:hover{
+	background-image: url("../fotossgs/triste.png");
+	border: 70px solid royalblue;
+	border-color: #00284d;
+	border-radius: 12px;
+}
+
